@@ -1,0 +1,54 @@
+.songDetails {
+    display: flex;
+    align-items: center;
+    margin: 30px auto;
+}
+.songPhoto {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+.songInfo {
+    color: white;
+    margin-left: 13px;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+.songInfo div {
+    width: 80%;
+}
+.songDetails .songInfo h2{
+    margin-top: 0;
+    margin-bottom: 0;
+    font-size: 17px;
+}
+.songDetails .songInfo p{
+    margin-bottom: 0;
+    color: #555049;
+}
+.playlist_songs{width: 33%}
+.playlist_songs li {
+    list-style: none;
+}
+.songInfo span {
+    margin-top: 20px;
+    color: #555049;
+}
+.searchbox input {
+    width: 97%;
+    height: 30px;
+    border: none;
+    outline: none;
+    border-radius: 6px;
+    padding-left: 10px;
+}
+.playlist_songs ul h1 {
+    color: white;
+    margin-bottom: 30px;
+}
+.activesong {
+    background: #a9a9a9;
+    border-radius: 6px;
+    padding: 10px;
+}
